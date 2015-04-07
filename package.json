@@ -1,0 +1,30 @@
+{
+  "name": "npm-hooks",
+  "version": "1.0.0",
+  "description": "This is a helper to create npm hooks. It will ensure that you never overwrite hooks which maybe there",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "npm,hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/npm-hooks.git"
+  },
+  "homepage": "https://github.com/mikkoh/npm-hooks",
+  "bugs": {
+    "url": "https://github.com/mikkoh/npm-hooks/issues"
+  }
+}
