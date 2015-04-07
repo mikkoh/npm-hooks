@@ -86,11 +86,7 @@ function createNPMHooksFolder(modulesPath, cb) {
       return;
     }
 
-    if(created) {
-      createFolderIfDoesntExist(path.join(modulesPath, '.hooks'), cb);
-    } else {
-      cb(null, false);
-    }
+    createFolderIfDoesntExist(path.join(modulesPath, '.hooks'), cb);
   });
 }
 
